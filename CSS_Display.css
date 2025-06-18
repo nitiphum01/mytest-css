@@ -1,0 +1,18 @@
+p{
+    display: inline;/*เปลี่ยน p เป็น inline element ได้ด้วยดังนี้*/
+    outline: 1px dashed blue;
+}
+
+span
+{
+    display: block;/*เปลี่ยน span เป็น block element ได้ด้วยดังนี้*/
+    outline: 1px dashed blue;
+}
+/*สามารถทำให้element หายไปได้*/
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* display: none; ทำให้divหายไปได้ */
+    visibility: hidden;/*ทำให้หายแต่จะเหลือขนาดหรือช่องว่างไว้ เหมือนซ่อนตัว*/
+}
